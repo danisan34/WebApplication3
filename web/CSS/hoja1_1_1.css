@@ -1,0 +1,50 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19-Mar-2021, 09:19:25
+    Author     : ds388
+*/
+body{
+    background-color: gray; 
+}
+.distribucion {
+    
+    display: grid;
+    grid-template-rows: repeat(3, minmax(50px, auto));
+    grid-template-columns: repeat(6, 1fr); 
+    gap: 10px;
+    
+    
+}
+
+.menu {
+   
+    grid-column: 1/7;
+   background-color: activecaption; 
+    
+}
+
+/*.lateral {
+    
+    grid-column: 1/2;
+    background-color: #FF5733; 
+    text-align: center;
+}*/
+
+.contenido {
+    
+     grid-column: 1/7;
+     background-color: activecaption; 
+     text-align: inherit;
+     
+}
+
+.pie {
+    
+    grid-column: 1/7;
+     background-color: activecaption; 
+     text-align: center; 
+}
